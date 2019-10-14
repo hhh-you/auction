@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name></display-name>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AuctionUserLoginServlet</servlet-name>
+		<servlet-class>com.peng.servlet.AuctionUserLoginServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<description>This is the description of my J2EE component</description>
+		<display-name>This is the display name of my J2EE component</display-name>
+		<servlet-name>AuctionListServlet</servlet-name>
+		<servlet-class>com.peng.servlet.AuctionListServlet</servlet-class>
+	</servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionAddServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionSaveServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionSaveServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionFindByIDServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionFindByIDServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionUpdateServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionUpdateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionDelByIDServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionDelByIDServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionSearchServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionSearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionResultServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionResultServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionLogoutServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionLogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionDetailServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionDetailServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AuctionRecordAddServlet</servlet-name>
+    <servlet-class>com.peng.servlet.AuctionRecordAddServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<!-- 如何访问对应的SER -->
+	<servlet-mapping>
+		<servlet-name>AuctionUserLoginServlet</servlet-name>
+		<url-pattern>/AuctionLoginServlet</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>AuctionListServlet</servlet-name>
+		<url-pattern>/AuctionListServlet</url-pattern>
+	</servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionAddServlet</servlet-name>
+    <url-pattern>/AuctionAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionSaveServlet</servlet-name>
+    <url-pattern>/AuctionSaveServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionFindByIDServlet</servlet-name>
+    <url-pattern>/AuctionFindByIDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionUpdateServlet</servlet-name>
+    <url-pattern>/AuctionUpdateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionDelByIDServlet</servlet-name>
+    <url-pattern>/AuctionDelByIDServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionSearchServlet</servlet-name>
+    <url-pattern>/AuctionSearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionResultServlet</servlet-name>
+    <url-pattern>/AuctionResultServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionLogoutServlet</servlet-name>
+    <url-pattern>/AuctionLogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionDetailServlet</servlet-name>
+    <url-pattern>/AuctionDetailServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AuctionRecordAddServlet</servlet-name>
+    <url-pattern>/AuctionRecordAddServlet</url-pattern>
+  </servlet-mapping>
+  
+  <filter>
+  	<filter-name>FileFilter</filter-name>
+  	<filter-class>com.peng.filter.FileFilter</filter-class>
+  </filter>
+  
+  <filter-mapping>
+  	<filter-name>FileFilter</filter-name>
+  	<url-pattern>/*</url-pattern>
+  </filter-mapping>
+	<welcome-file-list>
+		<welcome-file>index.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
